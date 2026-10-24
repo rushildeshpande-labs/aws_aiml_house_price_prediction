@@ -48,3 +48,20 @@ The dataset is synthetic, so the results may not represent real-world housing ma
 
 ## Learning Outcome
 This project provided practical experience in data cleaning, exploratory data analysis, visualization, and introductory machine learning.
+### Model Evaluation Results
+
+The Linear Regression model was evaluated on the test dataset using the following metrics:
+
+- **Mean Absolute Error (MAE):** ₹4,47,693.09
+- **Root Mean Squared Error (RMSE):** ₹8,77,894.12
+- **R² Score:** 0.9348
+
+The model achieved an R² score of 0.9348, indicating that it explains approximately 93.48% of the variation in house prices in the test dataset.
+
+The learned coefficients were:
+- **Area:** ₹4,493.69
+- **Bedrooms:** ₹4,04,029.15
+- **Age:** −₹8,444.37
+- **Intercept:** ₹6,05,962.92
+
+These coefficients represent the model's estimated relationship between each feature and house price, keeping the other features constant. Since the dataset is synthetic, the results should not be interpreted as reliable estimates for the real housing market.
